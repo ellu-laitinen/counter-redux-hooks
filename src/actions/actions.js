@@ -6,6 +6,7 @@ export const RESET = 'RESET';
 
 export const STORE_RESULTS = 'STORE_RESULTS';
 export const DELETE_RESULTS = 'DELETE_RESULTS';
+export const DELETE_ALL = 'DELETE_ALL';
 
 
 
@@ -34,4 +35,8 @@ export const storeResults = (currentState) => ({
 export const deleteResults = (id) => ({
     type: DELETE_RESULTS,
     id: id
+})
+export const deleteAll = () => ({
+    type: DELETE_ALL
+
 })

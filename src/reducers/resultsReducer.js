@@ -19,16 +19,16 @@ const resultsReducer = (state = initialState, action) => {
                 results: updatesResult
 
             }
+        case actionTypes.DELETE_ALL:
+            return initialState;
+
         default: return state
     }
 
 }
 
 const initialState = {
-    results: [
-        { id: 1, value: 'first result' },
-        { id: 2, value: 'second result' }
-    ]
+    results: []
 };
 
 

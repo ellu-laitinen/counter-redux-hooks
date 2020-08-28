@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+button {
+    background: hotpink;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+button:hover {
+    background-color: rgb(250, 51, 151);
+    cursor: pointer;
+
+  }
+
+  .counterNumber {
+      color: rgb(255, 0, 221);
+      background: rgba(255, 255, 255, 0.801);
+      width: 30%;
+      margin: auto;
+      border: double black 3px;
+  }
+
+  h1 {
+    font-family: 'Marck Script', cursive;
+    font-size: 48px;
+    font-weight: lighter;
+  }
